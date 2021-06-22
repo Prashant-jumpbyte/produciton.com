@@ -31,7 +31,9 @@ WORKDIR $APP_HOME
 # and install gems
 
 ADD Gemfile* $APP_HOME/
-# RUN bundle install
+RUN gem install bundler:1.16.1
+RUN bundle install
+
 
 # Copy over our application code
 ADD . $APP_HOME
