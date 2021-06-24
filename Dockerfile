@@ -1,5 +1,5 @@
 # Base image
-FROM public.ecr.aws/lambda/ruby:2.5
+FROM ruby:2.4.2
 
 # Setup environment variables that will be available to the instance
 ENV APP_HOME /produciton
