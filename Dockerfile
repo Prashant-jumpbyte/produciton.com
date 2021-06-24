@@ -1,5 +1,5 @@
 # Base image
-FROM 609906240783.dkr.ecr.us-east-2.amazonaws.com/nginx
+FROM 609906240783.dkr.ecr.us-east-2.amazonaws.com/nginx:latest
 
 # Setup environment variables that will be available to the instance
 ENV APP_HOME /produciton
