@@ -1,5 +1,5 @@
 # Base image
-FROM ruby:2.4.2
+FROM 609906240783.dkr.ecr.us-east-2.amazonaws.com/nginx
 
 # Setup environment variables that will be available to the instance
 ENV APP_HOME /produciton
